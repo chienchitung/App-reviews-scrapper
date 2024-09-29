@@ -225,8 +225,8 @@ gc = gspread.authorize(creds)
 spreadsheet_key = '{spreadsheet_key}'  # 替換為你的 spreadsheet key
 spreadsheet = gc.open_by_key(spreadsheet_key)
 
-# 選擇要寫入的工作表（例如，名為 "06_App_reviews" 的工作表）
-worksheet = spreadsheet.worksheet('06_App_reviews')  # 使用工作表名稱
+# 選擇要寫入的工作表（例如，名為 "App_reviews" 的工作表）
+worksheet = spreadsheet.worksheet('App_reviews')  # 使用工作表名稱
 
 # 指定要開始寫入的儲存格（例如，從 A1 開始）
 start_cell = 'A1'
