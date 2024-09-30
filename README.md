@@ -44,5 +44,6 @@ https://apps.apple.com/tw/app/蝦皮購物-花得更少買得更好/id959841107
 https://play.google.com/store/apps/details?id=com.shopee.tw&hl=en
 ```
 
-- 資料來源
+- 參考來源
     - [Scrapping Data from AppStore](https://medium.com/@amaliaazizah160199/scrapping-data-from-appstore-1946773f0b9f)
+    - [Apple App Store Reviews Scraper](https://github.com/glennfang/apple-app-reviews-scraper/tree/main)
