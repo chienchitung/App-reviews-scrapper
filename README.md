@@ -33,3 +33,13 @@ gc = gspread.authorize(creds)
 spreadsheet_key = '{spreadsheet_key}'  # 替換為你的 spreadsheet key
 spreadsheet = gc.open_by_key(spreadsheet_key)
 ```
+
+- 可自行更換App id進行爬取評論
+```python
+
+# 下面網址 id 後面為，ios app id "959841107"
+https://apps.apple.com/tw/app/蝦皮購物-花得更少買得更好/id959841107
+
+# 下面網址 id 跟 & 之間的網址，為andriod app id "com.shopee.tw"
+https://play.google.com/store/apps/details?id=com.shopee.tw&hl=en
+```
