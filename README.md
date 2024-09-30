@@ -34,7 +34,7 @@ spreadsheet_key = '{spreadsheet_key}'  # 替換為你的 spreadsheet key
 spreadsheet = gc.open_by_key(spreadsheet_key)
 ```
 
-- 可自行更換App id進行爬取評論
+- 可自行更換App id爬取評論
 ```python
 
 # 下面網址 id 後面為，ios app id "959841107"
